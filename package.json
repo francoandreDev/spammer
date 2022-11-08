@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "setUp": "py config/config.py",
+        "main": "py main/main.py",
+        "start": "npm run setUp && npm run main",
+        "upgrade:pip": "python -m pip install -U pip",
+        "get:requirements": "pip install -r requirements.txt"
+    }
+}
